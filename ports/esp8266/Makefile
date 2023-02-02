@@ -35,7 +35,7 @@ include $(TOP)/extmod/extmod.mk
 GIT_SUBMODULES += lib/axtls lib/berkeley-db-1.xx
 
 FWBIN = $(BUILD)/firmware-combined.bin
-PORT ?= /dev/ttyACM0
+PORT ?= /dev/ttyUSB0
 BAUD ?= 115200
 FLASH_MODE ?= qio
 FLASH_SIZE ?= detect
